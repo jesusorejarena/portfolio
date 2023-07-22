@@ -5,3 +5,15 @@
 html {
 	scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+	background: #fff;
+	width: 10px;
+	height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+	background: #3b82f6 !important;
+}
+body {
+	overflow-x: hidden;
+}
