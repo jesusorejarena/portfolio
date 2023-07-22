@@ -1,0 +1,85 @@
+{
+	"global": {
+		"yes": "Si",
+		"no": "No",
+		"download_cv": "Descargar CV",
+		"name": "Jesus Orejarena",
+		"developer": "Desarrollador",
+		"months": {
+			"january": "Enero",
+			"february": "Febrero",
+			"march": "Marzo",
+			"april": "Abril",
+			"may": "Mayo",
+			"june": "Junio",
+			"july": "Julio",
+			"august": "Agosto",
+			"september": "Septiembre",
+			"october": "Octubre",
+			"november": "Noviembre",
+			"december": "Diciembre"
+		}
+	},
+	"navigation": {
+		"home": "Inicio",
+		"experience": "Experiencia",
+		"projects": "Proyectos",
+		"aboutme": "Acerca de mi",
+		"education": "Educación",
+		"contact_me": "Contáctame"
+	},
+	"home": {
+		"greeting": {
+			"hi": "Hola!",
+			"my_name": "Mi nombre es"
+		},
+		"stack": {
+			"name": "Desarrollador",
+			"stack1": "Full Stack",
+			"stack2": "Mobile"
+		},
+		"description": "Con más de cuatro años de experiencia en diseño, desarrollo y mantenimiento de páginas web, sistemas en línea y aplicaciones móviles, he trabajado en una amplia gama de tecnologías. Mi versatilidad me ha permitido abordar proyectos en diferentes plataformas y ambientes, siempre buscando ofrecer soluciones de alta calidad y rendimiento."
+	},
+	"experience": {
+		"title": "EMPRESAS EN LAS QUE HE",
+		"subtitle": "COLABORADO"
+	},
+	"projects": {
+		"title": "PROYECTOS EN LOS QUE HE",
+		"subtitle": "TRABAJADO"
+	},
+	"about": {
+		"title": "ACERCA DE",
+		"description": "Con una trayectoria laboral diversa como empleado y freelancer, he adquirido una visión integral de la industria y la capacidad de adaptarme a distintos equipos y proyectos. Mi enfoque orientado a resultados y pasión por aprender me han permitido destacar en mi carrera y contribuir a proyectos exitosos. Como ingeniero en informática, siempre me esforcé por sobresalir en mis clases de programación y mi determinación se refleja en la calidad de mis trabajos y la satisfacción de mis clientes.",
+		"stack": {
+			"fullstack": "Desarrollador FullStack",
+			"mobile": "Desarrollador Mobile (Android/IOS)"
+		},
+		"skill_title": {
+			"my": "Mis"
+		}
+	},
+	"education": {
+		"title": "MI EDUCACIÓN",
+		"subtitle": "Universitaria"
+	},
+	"contact_me": {
+		"title": "¿Listo para trabajar juntos?",
+		"subtitle": "Mantengamonos en contacto",
+		"form": {
+			"name": "Tu nombre completo",
+			"email": "Tu correo electrónico",
+			"message": {
+				"label": "Tu mensaje",
+				"placeholder": "Deja un comentario..."
+			},
+			"button": "ENVIAR MENSAJE"
+		}
+	},
+	"footer": {
+		"linkedin": "Perfil de LinkedIn",
+		"upwork": "Perfil de Upwork",
+		"github": "Perfil de GitHub",
+		"email": "jesusorejarena@gmail.com"
+	}
+}
