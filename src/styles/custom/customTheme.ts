@@ -3,14 +3,14 @@ import type { CustomFlowbiteTheme } from 'flowbite-react';
 export const customTheme: CustomFlowbiteTheme = {
 	button: {
 		color: {
-			primary: 'text-white bg-blue-500 hover:bg-blue-600 transition-colors',
+			primary: 'text-white bg-blue-600 hover:bg-blue-700 transition-colors',
 		},
 	},
 	toggleSwitch: {
 		toggle: {
 			checked: {
 				color: {
-					primary: 'bg-blue-500',
+					primary: 'bg-blue-600',
 				},
 			},
 		},
@@ -22,7 +22,7 @@ export const customTheme: CustomFlowbiteTheme = {
 	badge: {
 		root: {
 			color: {
-				primary: 'bg-blue-500 text-white dark:bg-blue-500',
+				primary: 'bg-blue-600 text-white dark:bg-blue-600',
 			},
 		},
 	},

@@ -14,7 +14,7 @@ const Experience: FunctionComponent = () => {
 		<div id="experience" className="md:flex md:flex-col justify-center items-center">
 			<div className="h-[50%] space-y-16 w-full max-w-[1200px] z-10">
 				<div className="flex flex-col gap-y-2 items-start justify-start">
-					<Text className="bg-blue-500 text-white text-4xl md:text-5xl font-normal px-2 py-1">{t('title')}</Text>
+					<Text className="bg-blue-600 text-white text-4xl md:text-5xl font-normal px-2 py-1">{t('title')}</Text>
 					<Text className="px-2 text-4xl md:text-5xl font-black">
 						<Fade
 							className="underline underline-offset-4 decoration-blue-500"
@@ -30,7 +30,7 @@ const Experience: FunctionComponent = () => {
 
 				<div className="hidden md:flex absolute items-center justify-center right-0 -z-10">
 					<div className="bg-gray-300/40 dark:bg-gray-600/40 rounded-l-3xl w-[250px] h-[1700px] flex items-center justify-end pr-10">
-						<div className="bg-blue-500 rounded-xl w-[15px] h-[50%] flex items-center justify-center"></div>
+						<div className="bg-blue-600 rounded-xl w-[15px] h-[50%] flex items-center justify-center"></div>
 					</div>
 				</div>
 

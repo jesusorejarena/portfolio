@@ -86,7 +86,7 @@ export const icons = [
 		icon: IoLogoNodejs,
 		color: '#7FC827',
 		name: 'NodeJS',
-		textColor: '#FFFFFF',
+		textColor: '#000000',
 	},
 	{
 		icon: BiLogoTailwindCss,
@@ -158,7 +158,7 @@ export const icons = [
 		icon: SiMongodb,
 		color: '#66AD3E',
 		name: 'MongoDB',
-		textColor: '#FFFFFF',
+		textColor: '#000000',
 	},
 	{
 		icon: FaAppStoreIos,

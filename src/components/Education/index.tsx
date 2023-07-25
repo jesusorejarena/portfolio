@@ -15,7 +15,7 @@ const Education: FunctionComponent = () => {
 		<div id="education" className="flex justify-center">
 			<div className="flex flex-col py-10 space-y-10">
 				<div className="pt-10 flex flex-wrap gap-2 items-end z-10">
-					<Text className="bg-blue-500 text-white font-normal text-4xl md:text-5xl px-2 py-1">{t('title')}</Text>
+					<Text className="bg-blue-600 text-white font-normal text-4xl md:text-5xl px-2 py-1">{t('title')}</Text>
 					<Text className="text-4xl md:text-5xl font-black">
 						<Fade
 							className="underline underline-offset-4 decoration-blue-500"

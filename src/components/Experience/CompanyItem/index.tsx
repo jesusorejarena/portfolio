@@ -17,7 +17,7 @@ const CompanyItem: FunctionComponent<CompanyItemProps> = ({ company }) => {
 					<Text className="text-3xl font-bold underline underline-offset-4 decoration-blue-500">
 						{currentLanguage === 'es' ? tGlobal('developer') : company.stack}
 					</Text>
-					<Text className="bg-blue-500 text-white text-3xl px-2 py-1">
+					<Text className="bg-blue-600 text-white text-3xl px-2 py-1">
 						{currentLanguage === 'es' ? company.stack : tGlobal('developer')}
 					</Text>
 				</div>

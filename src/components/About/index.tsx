@@ -17,7 +17,7 @@ const About: FunctionComponent = () => {
 				<div className="flex justify-start items-start">
 					<div className="mt-10 z-10 flex flex-wrap md:flex-col gap-y-4 justify-start">
 						<div className="flex flex-col gap-y-2 items-start">
-							<Text className="bg-blue-500 text-white text-4xl md:text-5xl font-normal px-2 py-1">{t('title')}</Text>
+							<Text className="bg-blue-600 text-white text-4xl md:text-5xl font-normal px-2 py-1">{t('title')}</Text>
 							<Text className="px-2 text-4xl md:text-5xl font-black underline underline-offset-4 decoration-blue-500">
 								<Fade
 									className="underline underline-offset-4 decoration-blue-500"
@@ -69,7 +69,7 @@ const About: FunctionComponent = () => {
 					<Text className="text-4xl font-black underline underline-offset-4 decoration-blue-500">
 						{t('skill_title.my')}
 					</Text>
-					<Text className="bg-blue-500 text-white font-normal text-4xl px-2 py-1">SKILLS</Text>
+					<Text className="bg-blue-600 text-white font-normal text-4xl px-2 py-1">SKILLS</Text>
 				</div>
 				<SkillsIcons />
 			</div>
