@@ -18,7 +18,7 @@ const ContactMe: FunctionComponent = () => {
 			<div className="flex flex-col lg:flex-row justify-center space-y-10 lg:space-y-0 w-full">
 				<div className="flex flex-col gap-5 items-start lg:w-[50%] lg:max-w-[500px]">
 					<div className="flex flex-col gap-5 items-start lg:max-w-[450px]">
-						<Text className="text-blue-500 text-5xl font-bold">{t('title')}</Text>
+						<Text className="text-blue-600 text-5xl font-bold">{t('title')}</Text>
 						<Text className="text-4xl font-semibold underline underline-offset-4 decoration-blue-500">
 							{t('subtitle')}
 						</Text>

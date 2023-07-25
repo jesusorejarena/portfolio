@@ -65,32 +65,32 @@ const Navigation: FunctionComponent = () => {
 						className="flex flex-col space-y-9 lg:space-y-0 lg:flex-row items-center justify-center text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
 					>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#home">
+							<a aia-label={t('navigation.home')} onClick={() => setSidebar(false)} href="#home">
 								<Text className="text-base font-semibold">{t('navigation.home')}</Text>
 							</a>
 						</li>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#experience">
+							<a aria-label={t('navigation.experience')} onClick={() => setSidebar(false)} href="#experience">
 								<Text className="text-base font-semibold">{t('navigation.experience')}</Text>
 							</a>
 						</li>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#projects">
+							<a aria-label={t('navigation.projects')} onClick={() => setSidebar(false)} href="#projects">
 								<Text className="text-base font-semibold">{t('navigation.projects')}</Text>
 							</a>
 						</li>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#aboutme">
+							<a aria-label={t('navigation.aboutme')} onClick={() => setSidebar(false)} href="#aboutme">
 								<Text className="text-base font-semibold">{t('navigation.aboutme')}</Text>
 							</a>
 						</li>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#education">
+							<a aria-label={t('navigation.education')} onClick={() => setSidebar(false)} href="#education">
 								<Text className="text-base font-semibold">{t('navigation.education')}</Text>
 							</a>
 						</li>
 						<li>
-							<a onClick={() => setSidebar(false)} href="#contact-me">
+							<a aria-label={t('navigation.contact_me')} onClick={() => setSidebar(false)} href="#contact-me">
 								<Text className="text-base font-semibold">{t('navigation.contact_me')}</Text>
 							</a>
 						</li>

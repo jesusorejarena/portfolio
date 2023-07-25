@@ -26,9 +26,9 @@ const Layout: FunctionComponent = () => {
 
 	return (
 		<div className={isDarkTheme ? 'dark' : ''}>
-			<div className="bg-white dark:bg-gray-800">
+			<div className="bg-white dark:bg-gray-800 overflow-x-hidden">
 				<Navigation />
-				<div className="mx-3 md:mx-10 lg:mx-24 md:px-10 lg:px-24 md:space-y-48 space-y-28">
+				<div className="mx-3 md:space-y-48 space-y-28">
 					<Home />
 					<Experience />
 					<Projects />

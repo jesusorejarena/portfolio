@@ -9,7 +9,7 @@ const UniversityItem: FunctionComponent<UniversityItemProps> = ({ university }) 
 				{university.title}
 			</Text>
 			<Text className="text-xl font-medium text-gray-500">{university.university}</Text>
-			<Text className="bg-blue-500 text-white text-xl font-medium px-2 py-1">
+			<Text className="bg-blue-600 text-white text-xl font-medium px-2 py-1">
 				{university.date.start} - {university.date.end}
 			</Text>
 		</div>

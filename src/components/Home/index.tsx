@@ -17,14 +17,14 @@ const Home: FunctionComponent = () => {
 	const words = [t('stack.stack1'), t('stack.stack2')];
 
 	return (
-		<div id="home" className="lg:flex lg:flex-col bg-local overflow-visible">
+		<div id="home" className="lg:flex lg:flex-col bg-local overflow-visible md:mx-10 md:px-10">
 			<div className="min-h-screen flex items-center justify-center gap-x-5">
 				<div className="flex flex-col lg:w-[60%] gap-y-4 justify-start">
 					<div className="flex flex-col font-semibold">
 						<Text className="text-3xl font-bold">{t('greeting.hi')}</Text>
 						<div className="flex flex-col lg:flex-row flex-wrap gap-2 items-start lg:items-end">
 							<Text className="text-3xl">{t('greeting.my_name')}</Text>
-							<Text className="bg-blue-500 text-white text-3xl px-2 py-1">{tGlobal('name')}</Text>
+							<Text className="bg-blue-600 text-white text-3xl px-2 py-1">{tGlobal('name')}</Text>
 						</div>
 					</div>
 
@@ -65,9 +65,9 @@ const Home: FunctionComponent = () => {
 					</div>
 
 					<div className="hidden lg:flex lg:flex-col items-end justify-end max-w-screen-xl z-0 absolute">
-						<div className="w-[30rem] h-[30rem] rounded-full opacity-20 bg-blue-500 blur-2xl left-0 -mb-36 -mr-10" />
+						<div className="w-[30rem] h-[30rem] rounded-full opacity-20 bg-blue-600 blur-2xl left-0 -mb-36 -mr-10" />
 
-						<div className="w-[30rem] h-[30rem] rounded-full opacity-20 bg-blue-500 blur-2xl right-0 -mt-36 -ml-10" />
+						<div className="w-[30rem] h-[30rem] rounded-full opacity-20 bg-blue-600 blur-2xl right-0 -mt-36 -ml-10" />
 					</div>
 				</div>
 			</div>
