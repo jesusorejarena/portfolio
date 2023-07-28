@@ -41,11 +41,13 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 						navigation={true}
 						thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
 						modules={[FreeMode, Navigation, Thumbs, Controller]}
-						className="rounded-md max-h-[500px] w-full"
+						className="rounded-md"
 					>
 						{info.imagesChildren.map((images, index) => (
-							<SwiperSlide key={index} className="rounded">
-								<img src={images} className="object-cover max-h-[500px] w-full" />
+							<SwiperSlide key={index} className="rounded-md bg-black">
+								<div className="flex items-center justify-center">
+									<img src={images} className="object-cover max-w-full max-h-[600px]" />
+								</div>
 							</SwiperSlide>
 						))}
 					</Swiper>
@@ -61,8 +63,10 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 						className="mt-3 mySwiper"
 					>
 						{info.imagesChildren.map((images, index) => (
-							<SwiperSlide key={index}>
-								<img src={images} className="rounded-md max-h-[120px] w-full" />
+							<SwiperSlide key={index} className="rounded-md bg-black">
+								<div className="flex items-center justify-center">
+									<img src={images} className="max-w-[120px] max-h-[100px]" />
+								</div>
 							</SwiperSlide>
 						))}
 					</Swiper>
