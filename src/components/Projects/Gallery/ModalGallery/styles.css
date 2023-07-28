@@ -1,0 +1,30 @@
+.main-swiper {
+	width: 600px;
+}
+
+.main-swiper img {
+	max-width: 100%;
+}
+.sub-swiper {
+	width: 600px;
+	max-width: 100%;
+	cursor: pointer;
+}
+.sub-swiper img {
+	max-width: 100%;
+}
+
+.mySwiper .swiper-slide {
+	opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+	opacity: 1;
+}
+
+.non-selectable {
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}

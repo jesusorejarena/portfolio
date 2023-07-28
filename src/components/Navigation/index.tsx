@@ -2,7 +2,7 @@ import { FunctionComponent, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SwitchLanguage from './SwitchLanguage';
 import SwitchTheme from './SwitchTheme';
-import Logo from '../../assets/images/svg/logo.svg';
+import { Logo } from '../../assets/imagesCloudinary';
 import Text from '../Common/Text';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
