@@ -37,7 +37,7 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 				<Modal.Body className={`non-selectable ${!isDarkTheme ? 'bg-white' : 'bg-gray-800'}`}>
 					<div className="flex flex-row items-center justify-start gap-x-4 w-full text-white text-2xl">
 						<Text className={`${!isDarkTheme ? 'text-black' : 'text-white'}`}>{info.title}</Text>
-						<div className="">
+						<div className="flex flex-row gap-x-4">
 							{info.code && (
 								<a href={info.code} aria-label={info.ariaLabelCode} target="_blank" rel="noopener noreferrer">
 									<FaGithub className={`${iconZoom} z-20 hover:cursor-pointer`} />
@@ -69,9 +69,9 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 						>
 							{info.imagesChildren.map((images, index) => (
 								<SwiperSlide key={index} className="rounded-md bg-black">
-									<div className="flex items-center justify-center">
+									<div className="flex items-center justify-center h-[600px]">
 										<div className="swiper-zoom-container">
-											<img src={images} className="object-cover max-w-full max-h-[600px]" />
+											<img src={images} className="object-cover max-w-full h-auto max-h-[600px]" />
 										</div>
 									</div>
 								</SwiperSlide>
@@ -90,8 +90,8 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 						>
 							{info.imagesChildren.map((images, index) => (
 								<SwiperSlide key={index} className="rounded-md bg-black flex items-center justify-center">
-									<div className="flex items-center justify-center">
-										<img src={images} className="object-cover max-w-[100px] max-h-[100px]" />
+									<div className="flex items-center justify-center h-[100px]">
+										<img src={images} className="object-cover max-w-full h-auto max-h-[100px]" />
 									</div>
 								</SwiperSlide>
 							))}
