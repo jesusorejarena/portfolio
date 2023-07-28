@@ -5,6 +5,7 @@ import { colorCompany } from '../infoImages';
 import ModalGallery from '../ModalGallery';
 import { Button } from 'flowbite-react';
 import { useTranslation } from 'react-i18next';
+import { createPortal } from 'react-dom';
 
 const ImagesItem: FunctionComponent<ImagesItemProps> = ({ info, col, index }) => {
 	const { t } = useTranslation('', { keyPrefix: 'global' });
@@ -62,7 +63,10 @@ const ImagesItem: FunctionComponent<ImagesItemProps> = ({ info, col, index }) =>
 				</div>
 			</div>
 
-			<ModalGallery openModal={openModal} setOpenModal={(value: boolean) => setOpenModal(value)} info={info} />
+			{createPortal(
+				<ModalGallery openModal={openModal} setOpenModal={(value: boolean) => setOpenModal(value)} info={info} />,
+				document.body
+			)}
 		</>
 	);
 };
