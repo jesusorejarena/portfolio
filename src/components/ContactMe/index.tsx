@@ -2,11 +2,10 @@
 import { FunctionComponent, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import Text from '../Common/Text';
-import Arrow from '../../assets/images/svg/arrow.svg';
-import arrowWhite from '../../assets/images/svg/arrowWhite.svg';
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { HiMail, HiUser } from 'react-icons/hi';
 import ThemeContext from '../../context/Theme';
+import { Arrow } from '../../assets/imagesCloudinary';
 
 const ContactMe: FunctionComponent = () => {
 	const { isDarkTheme } = useContext(ThemeContext);
@@ -27,7 +26,7 @@ const ContactMe: FunctionComponent = () => {
 					<div className="hidden lg:w-full lg:flex items-end justify-end lg:max-w-[520px]">
 						<img
 							className="w-[50%] mr-10 rotate-12"
-							src={isDarkTheme ? arrowWhite : Arrow}
+							src={isDarkTheme ? Arrow.white : Arrow.black}
 							alt="Flecha"
 							loading="lazy"
 						/>

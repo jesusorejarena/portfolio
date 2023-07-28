@@ -54,10 +54,10 @@ const CompanyItem: FunctionComponent<CompanyItemProps> = ({ company }) => {
 				</div>
 			</div>
 
-			{company.logo && (
+			{company.image && (
 				<div className="flex items-center justify-center lg:w-[40%]">
 					<Slide direction="right" triggerOnce>
-						<img className="max-w-[300px]" src={company.logo} alt={company.logoAlt} loading="lazy" />
+						<img className="max-w-[300px]" src={company.image} alt={company.logoAlt} loading="lazy" />
 					</Slide>
 				</div>
 			)}

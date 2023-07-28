@@ -3,7 +3,7 @@ import ContactmeIcons from '../Common/ContactmeIcons';
 import { useTranslation } from 'react-i18next';
 import Text from '../Common/Text';
 import { Badge } from 'flowbite-react';
-import Profile from '../../assets/images/profile.jpeg';
+import { Profile } from '../../assets/imagesCloudinary';
 import SkillsIcons from './SkillsIcons';
 import { Fade, Slide } from 'react-awesome-reveal';
 

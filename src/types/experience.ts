@@ -16,7 +16,7 @@ export interface CompanyItemProps {
 			es: string;
 			en: string;
 		};
-		logo: string;
+		image: string;
 		logoAlt: string;
 		skills: string[];
 	};
