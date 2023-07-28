@@ -28,19 +28,21 @@ const ModalGallery: FunctionComponent<ModalGalleryProps> = ({ openModal, setOpen
 		}
 	}, []);
 
-	const iconZoom = 'transition-transform duration-500 hover:scale-125 ease-in-out';
+	const iconZoom = `transition-transform duration-500 hover:scale-125 ease-in-out text ${
+		!isDarkTheme ? 'text-black' : 'text-white'
+	}`;
 
 	return (
 		<>
 			<Modal dismissible show={openModal} size="5xl" onClose={() => setOpenModal(false)} popup>
 				<Modal.Header className={!isDarkTheme ? 'bg-white' : 'bg-gray-800'} />
 				<Modal.Body className={`non-selectable ${!isDarkTheme ? 'bg-white' : 'bg-gray-800'}`}>
-					<div className="flex flex-row items-center justify-start gap-x-4 w-full text-white text-2xl">
+					<div className="flex flex-row items-center justify-start gap-x-4 w-full text-2xl">
 						<Text className={`${!isDarkTheme ? 'text-black' : 'text-white'}`}>{info.title}</Text>
 						<div className="flex flex-row gap-x-4">
 							{info.code && (
 								<a href={info.code} aria-label={info.ariaLabelCode} target="_blank" rel="noopener noreferrer">
-									<FaGithub className={`${iconZoom} z-20 hover:cursor-pointer`} />
+									<FaGithub className={iconZoom} />
 								</a>
 							)}
 							{info.link && (

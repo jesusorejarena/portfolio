@@ -17,12 +17,12 @@ const Home: FunctionComponent = () => {
 	const words = [t('stack.stack1'), t('stack.stack2')];
 
 	return (
-		<div id="home" className="lg:flex lg:flex-col bg-local overflow-visible md:mx-10 md:px-10">
+		<div id="home" className="mt-24 md:mt-0 lg:flex lg:flex-col bg-local overflow-visible md:mx-10 md:px-10">
 			<div className="min-h-screen flex items-center justify-center gap-x-5">
 				<div className="flex flex-col lg:w-[60%] gap-y-4 justify-start">
 					<div className="flex flex-col font-semibold">
 						<Text className="text-3xl font-bold">{t('greeting.hi')}</Text>
-						<div className="flex flex-col lg:flex-row flex-wrap gap-2 items-start lg:items-end">
+						<div className="flex flex-col md:flex-row flex-wrap gap-2 items-start lg:items-end">
 							<Text className="text-3xl">{t('greeting.my_name')}</Text>
 							<Text className="bg-blue-600 text-white text-3xl px-2 py-1">{tGlobal('name')}</Text>
 						</div>
@@ -30,7 +30,7 @@ const Home: FunctionComponent = () => {
 
 					<Text className="text-5xl font-bold underline underline-offset-4 decoration-blue-500">
 						{currentLanguage === 'es' ? (
-							<div className="flex flex-col lg:flex-row gap-x-3">
+							<div className="flex flex-col md:flex-row gap-x-3">
 								{t('stack.name')}
 								<Typewriter
 									options={{
@@ -41,7 +41,7 @@ const Home: FunctionComponent = () => {
 								/>
 							</div>
 						) : (
-							<div className="flex flex-col lg:flex-row gap-x-3">
+							<div className="flex flex-col md:flex-row gap-x-3">
 								<Typewriter
 									options={{
 										strings: words,

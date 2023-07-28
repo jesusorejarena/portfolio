@@ -18,12 +18,14 @@ const ImagesItem: FunctionComponent<ImagesItemProps> = ({ info, col, index }) =>
 		<>
 			<div className="group relative overflow-hidden rounded-lg h-full">
 				<div className={`aspect-[${col[index]}] w-full h-full`}>
-					<img
-						src={info.images}
-						alt="Images"
-						loading="lazy"
-						className="object-cover w-auto h-full transition-transform group-hover:scale-105"
-					/>
+					<div className="flex w-full h-full ">
+						<img
+							src={info.images}
+							alt="Images"
+							loading="lazy"
+							className="object-cover transition-transform group-hover:scale-105"
+						/>
+					</div>
 				</div>
 
 				<div className="flex flex-col absolute inset-0 items-start justify-between opacity-0 group-hover:opacity-100 group-hover:bg-black/70 transition-opacity  p-3">
